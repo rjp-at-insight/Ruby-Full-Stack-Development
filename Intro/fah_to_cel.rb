@@ -9,7 +9,7 @@ convert = Proc.new {|f| (f.to_i - 32) / 1.8}
 puts "Please enter the temperature in Fahrenheit: "
 f = gets.strip
 
-if (f == "q" || f == 'Q')
+if (f == 'q' || f == 'Q')
     print "\nThank you, and have a good day\!\n"
 else
     c = convert.call(f)
