@@ -10,7 +10,7 @@ for i in 6..10 do
     print "#{i}\n"
 end
 
-# the same but all in one line
+# the same but all in one line (please, do not write code like this!!)
 puts "\nFunctionally equivalent code, but all inline.";for i in 6..10 do puts i end
 
 # use an exclusive range operator (10 is excluded)

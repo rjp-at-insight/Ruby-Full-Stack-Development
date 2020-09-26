@@ -23,6 +23,7 @@ puts "This time, passing a code block to the \'upto\' method."
 1.upto(5) {|i| puts i}
 puts "\n"
 
+# Using the upto method with chars as an index.
 puts "Now the \'upto\' method, using a string array."
 'a'.upto('d') {|x| puts x}
 puts "\n"
