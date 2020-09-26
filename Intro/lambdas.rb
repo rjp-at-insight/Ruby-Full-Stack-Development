@@ -1,3 +1,9 @@
+#   AUTHOR      : Robert James Patterson
+#   DATE        : 09/24/2020
+#   FILE        : lambdas.rb
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Flow Control & Data Types'.
+#
+
 # using the lambda method
 my_lamb = lambda { |x| print "The argument value sent to lambda is #{x}\.\n"}
 puts "\nlambda is a Proc object, so 'my_lamb.class' returns: '#{my_lamb.class}\.'"

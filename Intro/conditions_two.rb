@@ -1,3 +1,9 @@
+#   AUTHOR      : Robert James Patterson
+#   DATE        : 09/24/2020
+#   FILE        : conditions_two.rb
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Flow Control & Data Types'.
+#
+
 if x and y
     puts "x and y are both logically true."
 elsif x || y

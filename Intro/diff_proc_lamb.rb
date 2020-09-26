@@ -1,3 +1,9 @@
+#   AUTHOR      : Robert James Patterson
+#   DATE        : 09/24/2020
+#   FILE        : diff_proc_lamb.rb
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Flow Control & Data Types'.
+#
+
 # Lambda does not return FROM the method it is called from, a Proc does. Hence, the lambda will
 # return control to the calling method while the Proc will exit the calling method and execute
 # the next line of code after the originating method call.

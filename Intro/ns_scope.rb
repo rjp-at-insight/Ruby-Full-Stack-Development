@@ -1,3 +1,9 @@
+#   AUTHOR      : Robert James Patterson
+#   DATE        : 09/24/2020
+#   FILE        : ns_scope.rb
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Flow Control & Data Types'.
+#
+
 module MyMath
     PI = 3.14
 end
