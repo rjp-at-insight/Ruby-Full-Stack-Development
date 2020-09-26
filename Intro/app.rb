@@ -1,7 +1,7 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 09/24/2020
 #   FILE        : app.rb
-#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Flow Control & Data Types'.
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Introduction'.
 #
 
 # conversion from celsius to farenheit

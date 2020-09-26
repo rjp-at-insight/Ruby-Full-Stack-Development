@@ -1,7 +1,7 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 09/24/2020
 #   FILE        : diff_proc_lamb.rb
-#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Flow Control & Data Types'.
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Introduction'.
 #
 
 # Lambda does not return FROM the method it is called from, a Proc does. Hence, the lambda will
