@@ -11,11 +11,10 @@ for i in 6..10 do
 end
 
 # the same but all in one line
-puts "functionally equivalent code.";for i in 6..10 do puts i end
+puts "\nFunctionally equivalent code, but all inline.";for i in 6..10 do puts i end
 
 # use an exclusive range operator (10 is excluded)
 puts "\nThe basic for loop with an exclusive range."
 for i in 6...10 do
-    print i
-    print "\n"
+    p i.inspect
 end
