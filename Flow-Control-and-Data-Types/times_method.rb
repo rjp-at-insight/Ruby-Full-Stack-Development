@@ -5,7 +5,11 @@
 #
 
 # for loop implemention
-puts "\nUsing a for loop.";for i in 0..3 do puts i end;print "\n"
+puts "\nUsing a for loop."
+for i in 0..3 do 
+    puts i 
+end
+    print "\n"
 
 # using the 'times' method,
 # note the use of the code block passed to the 'times' method.
