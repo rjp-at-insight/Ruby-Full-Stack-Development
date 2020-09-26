@@ -4,8 +4,8 @@
 
 ### Consistency is key
 
-Good comments help the reader understand
-Good comments are in-sync with the code
+* Good comments help the reader understand
+* Good comments are in-sync with the code
 
 * Two space indents
 * Adhere to naming Conventions
