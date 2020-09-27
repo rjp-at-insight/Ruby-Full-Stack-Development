@@ -25,18 +25,12 @@ puts "\nAn example where \'then\' is used."
 score = 93
 
 grade = case score
-    when 0..59 then 
-        "Incomplete"
-    when 60..75 then 
-        "Pass"
-    when 76..85 then
-        "Very Good"
-    when 86..95 then
-        "Great"
-    when 96..100
-        "Excellent"
-    else
-        "????"
+    when 0..59 then "Incomplete"
+    when 60..75 then "Pass"
+    when 76..85 then "Very Good"
+    when 86..95 then "Great"
+    when 96..100 then "Excellent"
+    else "????"
 end
 
 puts "Your grade is : " + grade
