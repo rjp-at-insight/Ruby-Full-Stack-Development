@@ -1,7 +1,7 @@
 # WORKING WITH ARRAYS
 
-NOTE: The 'Working with Arrays' lesson was all done at the interactive prompt, so instead of a code file, we have this
-text file about arrays intead. 
+NOTE: The 'Working with Arrays' lesson was all done at the interactive prompt, there is no code file, we have this
+text file about arrays instead. 
 
 Create a new, empty array: Array #new
 arr = []
