@@ -5,9 +5,9 @@
 #
 
 # express ranges
-range1 = (1..5).to_a # an inclusive range of integers as an array
+range1 = (1..5).entries() # an inclusive range of integers as an array
 range2 = (1...5).to_a # an exclusive range of integers as an array
-range3 = ('a'..'e').to_a # an inclusive range of characters as an array
+range3 = ('a'..'e').entries() # an inclusive range of characters as an array
 range4 = ('ham'..'has').to_a # an inclusive range of sequences of characters as an array
 nums = 0..9
 
