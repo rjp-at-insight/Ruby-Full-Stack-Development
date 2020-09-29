@@ -309,4 +309,4 @@ remove duplicate or nil values: #uniq knocks out duplicates and #copact takes ou
 # returns [1, 2, 3, 4]
 [1, nil, 2, nil, 3].compact
 # returns [1, 2, 3]
-And that’s all! I mean, that’s not all the methods there all, just the ones I have room for.
+And that’s all! I mean, that’s not all the methods there all, but that is all I am adding now.
