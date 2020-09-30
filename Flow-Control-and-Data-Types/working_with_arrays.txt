@@ -1,7 +1,7 @@
 # WORKING WITH ARRAYS
 
-NOTE: The 'Working with Arrays' lesson was all done at the interactive prompt, so instead of a code file, we have this
-text file about arrays intead. 
+NOTE: The 'Working with Arrays' lesson was all done at the interactive prompt, so instead of a code file, 
+we have this text file about arrays intead. 
 
 Create a new, empty array: Array #new
 arr = []
@@ -16,16 +16,20 @@ create an array of duplicate values: Sometimes it’s helpful to have an array f
 arr = Array.new(5, " ")
 # -> [" ", " ", " ", " ", " "]
 
-create an array of strings with a shortcut: use the %w shortcut to create an array of strings without quotes or commas:
+create an array of strings with a shortcut: use the %w shortcut to create an array of strings without quotes 
+or commas:
 arr = %w(cat dog mouse 1 2)
 # -> ["cat", "dog", "mouse", "1", "2"]
 
-convert a string into an array: #split will split a string into an array. It takes an argument of a string to decide where to split the array items, otherwise it splits by space. To get each character alone, specify “”as the argument:
+convert a string into an array: #split will split a string into an array. It takes an argument of a string to 
+decide where to split the array items, otherwise it splits by space. To get each character alone, specify “”as 
+the argument:
 arr = "this is a string”.split 
 arr # -> ["this", "is", "a", "string"] 
 "hey".split("") # -> ["h","e","y"]
 
-bonus: convert an array to a string: #join does the opposite and creates a new string from an array. It takes a string as an optional argument, which will be inserted between values:
+bonus: convert an array to a string: #join does the opposite and creates a new string from an array. It takes 
+a string as an optional argument, which will be inserted between values:
 arr = %w(cat dog mouse)
 str = arr.join(", ")
 str # -> "cat, dog, mouse"
@@ -52,7 +56,8 @@ arr[-1] # -> "pig"
 arr[-2] # -> "cow"
 arr[-100] # -> nil
 
-Get the value at an index or a default value: #fetch will return the value at the index, or it will give the default argument, or code block value.
+Get the value at an index or a default value: #fetch will return the value at the index, or it will give the 
+default argument, or code block value.
 arr.fetch(0) # -> "cat"
 arr.fetch(-1) # -> "pig"
 arr.fetch(100) # -> raise a KeyError 
@@ -77,8 +82,8 @@ arr = %w(cat dog mouse)
 arr[0] = "lynx"
 arr # -> ["lynx", "dog", "mouse"]
 
-Add a value to the end of an array: The << is called a “shovel operator”, but you can also use #push. These methods 
-modify the original array:
+Add a value to the end of an array: The << is called a “shovel operator”, but you can also use #push. 
+These methods modify the original array:
 arr = %w(cat dog mouse)
 arr << "cobra" 
 # returns changed array
@@ -171,8 +176,8 @@ arr.reverse!
 # useful for sorting in reverse order
 arr.sort.reverse
 
-randomize the order: #shuffle and #shuffle! randomize the order of elements, shuffle just a copy, and shuffle! 
-on thearray itself:
+randomize the order: #shuffle and #shuffle! randomize the order of elements, shuffle just a copy, 
+and shuffle! on thearray itself:
 arr = [1,2,3,4]
 arr.shuffle # -> [2, 1, 3, 4]
 arr # -> [1, 2, 3, 4]
@@ -183,7 +188,9 @@ bonus: pick random value from an array: #sample returns a random value from an a
 [1,2,3,4].sample # -> 3
 
 #Each and #Map
-These two methods, along with their variations, are probably some of the most important array methods in ruby. They will both iterate (move through) an array, but the main difference is that #each will always return the original array, and #map will return a new array.
+These two methods, along with their variations, are probably some of the most important array methods in ruby. 
+They will both iterate (move through) an array, but the main difference is that #each will always return the 
+original array, and #map will return a new array.
 Iterate through the array: #each
 arr = %w(a b c)
 arr.each do |val| 
@@ -200,7 +207,8 @@ end
 # still returns:
 # ["a", "b", "c"]
 
-create a new object with each: #each_with_object is a useful method that lets you add to a given object during each iteration. At the end, instead of returning the original array, you return this object.
+create a new object with each: #each_with_object is a useful method that lets you add to a given object during 
+each iteration. At the end, instead of returning the original array, you return this object.
 arr = %w(a b c)
 arr.each_with_object({}) do |value, result|
   result[value] = value.upcase
@@ -208,7 +216,8 @@ end
 # returns: 
 # {"a"=>"A", "b"=>"B", "c"=>"C"}
 
-You can also use #with_object to chain together #each_with_index, for example to quickly stich arrays into objects:
+You can also use #with_object to chain together #each_with_index, for example to quickly stich arrays into 
+objects:
 arr = %w(a b c)
 arr
   .each_with_index
@@ -237,7 +246,8 @@ arr.map! do |value|
 end
 arr # -> [ “a!!”, “b!!”, “c!!”]
 
-#map.with_index: by chaining #with_index, you can get access to the index like before. Note that these are #map and #with_index are two separate methods, unlike #each_with_index:
+#map.with_index: by chaining #with_index, you can get access to the index like before. Note that these are 
+#map and #with_index are two separate methods, unlike #each_with_index:
 arr = %w(a b c)
 arr.map.with_index do |value, idx|
   "index #{idx} is '#{value}'"
@@ -267,14 +277,16 @@ arr1 + arr3 + arr2
 arr1.concat(arr2)
 arr1 # -> [1, 2, 3, 4, 5, 6]
 
-see if any values match condition: #any? returns true or false, true if at least one of the items in an array meet a condition, false if not:
+see if any values match condition: #any? returns true or false, true if at least one of the items in an array 
+meet a condition, false if not:
 arr = [1,2,3,4]   
 arr.any? do |num| 
   num > 2   
 end      
 # returns true
 
-see if all or no values match condition: use #all to check that every single item fits the condition, or #none for the opposite
+see if all or no values match condition: use #all to check that every single item fits the condition, or 
+#none for the opposite
 arr = [1,2,3,4]   
 arr.all? do |num| 
   num < 100
@@ -298,15 +310,18 @@ return all values to match a condition: #select
 end 
 # returns [2, 4]
 
-If you only care about the number of elements that meet a condition, then use #count. It just returns the number of values:
+If you only care about the number of elements that meet a condition, then use #count. It just returns the 
+number of values:
 [1, 2, 3, 4, 5, 6].count do |num| 
   num.even? 
 end 
 # returns 3
 
-remove duplicate or nil values: #uniq knocks out duplicates and #copact takes out nil values. They both return copies of the arrays, use #uniq! or #compact! to permanently alter original arrays:
+remove duplicate or nil values: #uniq knocks out duplicates and #copact takes out nil values. They both 
+return copies of the arrays, use #uniq! or #compact! to permanently alter original arrays:
 [1, 2, 3, 1, 2, 4].uniq 
 # returns [1, 2, 3, 4]
 [1, nil, 2, nil, 3].compact
 # returns [1, 2, 3]
-And that’s all! I mean, that’s not all the methods there all, just the ones I have room for.
+
+And that’s all! I mean, that’s not all the methods there all, just the ones I have time for.
