@@ -1,7 +1,12 @@
 # WORKING WITH ARRAYS
 
+<<<<<<< HEAD
 NOTE: The 'Working with Arrays' lesson was all done at the interactive prompt, so instead of a code file, 
 we have this text file about arrays intead. 
+=======
+NOTE: The 'Working with Arrays' lesson was all done at the interactive prompt, there is no code file, we have this
+text file about arrays instead. 
+>>>>>>> 6f143e5d00b119f1b9eac940e5ab6434ee68ff1a
 
 Create a new, empty array: Array #new
 arr = []
@@ -324,5 +329,9 @@ return copies of the arrays, use #uniq! or #compact! to permanently alter origin
 # returns [1, 2, 3, 4]
 [1, nil, 2, nil, 3].compact
 # returns [1, 2, 3]
+<<<<<<< HEAD
 
 And that’s all! I mean, that’s not all the methods there all, just the ones I have time for.
+=======
+And that’s all! I mean, that’s not all the methods there all, but that is all I am adding now.
+>>>>>>> 6f143e5d00b119f1b9eac940e5ab6434ee68ff1a
