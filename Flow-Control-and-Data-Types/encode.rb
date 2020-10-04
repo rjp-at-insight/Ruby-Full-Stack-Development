@@ -6,6 +6,5 @@
 #
 
 # encoding: US-ASCII
-=======
->>>>>>> 579a59fe340c575c2bb52c63f21117babf94534e
+
 puts __ENCODING__
