@@ -23,5 +23,8 @@ puts str.encoding
 # here we append a UTF- char to our ASCII string
 str << " Pound: \u00A3"
 puts str
+UPDATEW
+# and now we show that the entire string has
+# been converted to UTF-8
 puts str.encoding
 
