@@ -20,7 +20,7 @@ puts str.encoding
 puts str.encode!("US-ASCII")
 puts str.encoding 
 
-# here we append a UTF- char to our ASCII string
+# here we append a UTF-8 char to our ASCII string
 str << " Pound: \u00A3"
 puts str
 
