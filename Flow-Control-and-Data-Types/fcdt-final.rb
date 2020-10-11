@@ -26,7 +26,7 @@ printf("Robert scored a : %s\n", grades.fetch('Robert', 'N/A'))
  
 # Use an array to store 3 numbers
 vals = (1..3).to_a
-puts "Initial Array")
+puts "Initial Array"
 puts vals
 
 # insert a value to the beginning of an array
