@@ -2,7 +2,7 @@
 #   DATE        : 10/11/2020
 #   FILE        : fcdt-final.rb
 #   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Flow Control & Data Types'.
-#               Final Exercise fpr this modual 
+#               Final Exercise for this modual 
 #
 
 # Create a loop that displays 1 to 5
