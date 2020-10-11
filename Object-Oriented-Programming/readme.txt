@@ -17,8 +17,8 @@ class <Name>
   end
 end
 
-Note: instance variables begin with a '@' character. Initialize is a special
-method in Ruby used to set the initial state of objects based on the class.
+Note: instance variables begin with a '@' character. Initialize is a special method in Ruby know as 
+a constructor. It used to set the initial state of objects based on the class.
 
 class Person
   def initialize(name)
