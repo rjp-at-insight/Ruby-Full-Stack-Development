@@ -18,7 +18,7 @@ i = 0
 puts "Using \'Until\' to loop five times."
 puts i += 1 until i >= 5
 
-# Use a hash to store grades for twu students
+# Use a hash to store grades for two students
 grades = {"Susan" => "100", "Robert" => "97"}
 
 printf("Susan scored a : %s\n", grades['Susan'])
