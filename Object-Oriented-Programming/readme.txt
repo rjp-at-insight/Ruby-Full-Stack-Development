@@ -5,7 +5,7 @@
 - Inherintance - The building or modifying of a class by building off of another class.
 
 - Polymorphism - The ability for an object or method to alter its behavior in order to process
-                  data differently based on the object/data that it is given to process. A signle
+                  data differently based on the object/data that it is given to process. A single
                   interface to access entities of different types.
 
 # CLASS AND OBJECT DEFINITION
