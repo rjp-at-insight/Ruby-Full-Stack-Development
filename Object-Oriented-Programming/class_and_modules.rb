@@ -1,8 +1,8 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 10/15/2020
 #   FILE        : class_and_modules.rb
-#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Object Oriented Programming'.
-#
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Object Oriented Programming'. This
+#               file is dependent on measure.rb and circle.rb.
 
 $LOAD_PATH << '.'
 require "measure"
