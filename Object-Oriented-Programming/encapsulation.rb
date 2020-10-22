@@ -6,7 +6,7 @@
 
 class Person
     
-    #Class constructor
+    # Class constructor
     def initialize(first, last)
         @first = first
         @last = last
