@@ -1,7 +1,8 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 10/15/2020
 #   FILE        : cirle.rb
-#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Object Oriented Programming'.
+#   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Object Oriented Programming'. This
+#               file is dependent on measure.rb and class_and_modules.rb.
 #
 
 module Circle
