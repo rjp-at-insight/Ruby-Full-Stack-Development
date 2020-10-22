@@ -1,6 +1,6 @@
 #   AUTHOR      : Robert James Patterson
-#   DATE        : 10/15/2020
-#   FILE        : inheritance.rb
+#   DATE        : 10/22/2020
+#   FILE        : polyheritance.rb
 #   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Object Oriented Programming'.
 #
 
@@ -17,7 +17,7 @@ class Mammal
     def hunger
         puts "The #{self.class.name} is hungry"
     end
-    
+
 end
 
 class Dog < Mammal
