@@ -1,6 +1,6 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 10/27/2020
-#   FILE        : pseudo_overriding.rb
+#   FILE        : pseudo_overloading.rb
 #   SYNOPSIS    : Work-thru file for 'Ruby Full Stack Development: Object Oriented Programming'.
 #
 
